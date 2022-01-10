@@ -1,17 +1,16 @@
 ---
-name: Bryan
-surname: Jenks
-position: "Information Technology Associate"
-address: "Covered California"
-profilepic: "./img/me.jpg"
-www: "bryanjenks.dev"
-email: "bryan@bryanjenks.dev"
-github: tallguyjenks
-linkedin: bryanjenks
-orcid: 0000-0002-9604-3069
+name: Dr. Hadis
+surname: Rezaee
+position: "PHd, Chemical Engineering"
+address: "Tehran, Iran(Islamic Republic of)"
+profilepic: "./img/me.png"
+www: "hadisrezaee.org"
+email: "h.s_rezaee@yahoo.com"
+github: hadisrezaee
+linkedin: hadis-rezaee-4a539a12a
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "I have been writing production software in a variety of languages for over 3+ years for California Correctional Health Care Services. I have a deep driven passion for software, automation, and data science. This very CV was even compiled with code."
+aboutme: "Hello, I am Dr. Hadis Rezaee, a performance-driven and self-motivated chemical engineering PhD candidate with over 5 years’ experience in oil and gas process and bitumen. Currently working for the my thesis work for investigating the effect of Mn-Na2WO4/SiO2 preparation Method on the performance of catalyst for Oxidative Coupling Methane. Enjoying overcoming challenges and aiming to apply my knowledge and decision-making skills to solve real-life situations for better performance and clean environment. Curiosity, aspiration for precision and passion for research has developed ingenious processes and products in the chemical world. I believe these qualities are what makes an enthusiastic and successful chemical engineering researcher."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -37,21 +36,6 @@ source(file = here("r","data.r"))
 
 ```
 
-# Employment
-
-```{r EMPLOYMENT}
-
-work %>%
-  detailed_entries(
-    with = title,
-    what = unit,
-    why = detail,
-    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-    where = where
-  )
-
-```
-
 # Education
 
 ```{r EDUCATION}
@@ -67,6 +51,23 @@ edu %>%
 
 ```
 
+# Employment
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+
+\newpage
 # Skills
 
 ```{r SKILLS}
@@ -79,11 +80,31 @@ skills %>%
 
 ```
 
-# Honors
 
-```{r HONORS}
+
+<!--# Honors
+-->
+
+```{r HONORS, eval=FALSE}
 
 honors %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
+
+
+
+# Publication Work
+
+```{r WORKS}
+
+works %>%
   detailed_entries(
     with = area,
     what = accomplishment,
@@ -109,22 +130,7 @@ projects %>%
 
 ```
 
-# Works
 
-```{r WORKS}
-
-works %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-
-```
-
-\pagebreak
 
 # Certifications
 
@@ -136,6 +142,22 @@ certifications %>%
     what = accomplishment,
     why = detail,
     when = year,
+    where = where
+  )
+
+```
+
+
+# References
+
+```{r References}
+
+references %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
     where = where
   )
 

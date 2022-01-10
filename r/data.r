@@ -1,33 +1,61 @@
 projects <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Lean Six Sigma Green Belt --- Reception Center Intake Process", "California Correctional Health Care Services", 2019, "Region 1 Quality Management", "Completed a Lean Six Sigma Green Belt project on the reception center medical screening process at San Quentin State Prison improving compliance from 2% and a baseline capability aggregate of 29.96% compliance to 84% during the transition phase of the project through application of the lean 6 methodologies and tools. Scope of project affects 6 total state prisons with 3 more to be positively impacted by state wide changes resulting from this project",
-    "Universal Data Scrubber", "California Correctional Health Care Services", 2018, "Region 1 Quality Management", "Creation of a Universal Data Scrubbing tool sent statewide to take most department SQL Report Server exports and turn them into raw data sets for Excel Analytics for end user staff"
+    "Research on the upgrading technologies for heavy oil and bitumen and select the apposite technology based on the condition.", NA, NA, NA, NA,
+    "Research on corrosion under insulation and fireproofing.", NA, NA, NA, NA,
+    "Research on OCM:  core- shell catalysts, nano catalysts.", NA, NA, NA, NA,
+    "Synthesis of catalysts for OCM process.", NA, NA, NA, NA,
+    "Resistance of metro tunnels against Corrosion of sulphate and chloride in municipal sewage.", NA, NA, NA, NA,
+    "Salt removing from sewage of sugar factories. ", NA, NA, NA, NA,
+    "Organic methods for removing enzyme for drying fruit industry especially Cantaloupe..", NA, NA, NA, NA,
+    "Production of an asphalt bitumen replacement additive to extend the life of the asphalt and reduce its cost.", NA, NA, NA, NA,
+    "Corrosion resistant of asphalt against organic materials such as gasoline and diesel.", NA, NA, NA, NA,
+    "Asphalt Resistance versus Salt Corrosion with Additives based on Sulfur.", NA, NA, NA, NA,
+    "Sulfur production for agricultural use.", NA, NA, NA, NA,
+    "Production of 5th generation disinfectant for coronavirus based on ammonium chloride compounds.", NA, NA, NA, NA
+
 )
 
 certifications <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Certified Lean Six Sigma Green Belt", NA, "", "", NA,
-    "Certified Lean Six Sigma White Belt", NA, "", "", NA,
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Excel - 112",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Word - 22",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Outlook - 21",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Power Point - 18",
-    "Microsoft Software", "Various Applications", "", "", "Share Point - 9",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Project - 6",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Access - 3",
-    "Microsoft Software", "Various Applications", "", "", "Microsoft Power BI - 3"
+    "Gas Chromatography", NA, "", "Chemistry and Chemical Engineering Research Center of Iran", NA,
+    "Inductively Coupled Plasma", NA, "", "Chemistry and Chemical Engineering Research Center of Iran", NA,
+    "MOSAIC modeling", NA, "", "Chemistry and Chemical Engineering Research Center of Iran", NA,
+    "Safety in nanotechnology and toxicity evaluation", NA, "", NA, NA,
+    
 )
 
 skills <- tribble(
     ~area, ~skills,
-    "Programming Languages", "BASH, Batch, CCL, DAX, JavaScript, Python, R, T-SQL, PL-SQL, VBA",
-    "Markup Languages", "CSS, HTML, LaTeX, Markdown, RMarkdown, SASS, Groff/Troff",
-    "Data Interchange Formats", "CSV, JSON, XML, Feather",
-    "Other Languages", "YAML",
-    "Version Control", "Git",
-    "Text Editors", "Discern Visual Developer, RStudio, SQL Server Management Studio, VIM, Visual Studio, Visual Studio Code",
-    "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Visio, Word"
+    "Research and Operation Skills", "Catalyst synthesis, characterization, and performance evaluation.",
+    NA, "Reactor system design and fabrication",
+    NA, "Corrosion Control and Analysis",
+    NA, "Knowledge about Upstream, Intermediate and Downstream Petroleum Engineering Operations.",
+    NA, "Knowledge about Principles, Types and Working with Gas Chromatography.",
+    NA, "Ability to independently design experiments, incorporate and interpret data for successful experimental findings.",
+    NA, "Analytical Measurements",
+    NA, "Expertise in Process Engineering and Cost Benefit Analysis",
+    NA, "Professional report writing and presentation.",
+    "Designing Software Skills", "MOSAIC modeling, Matlab, Aspen adsorption, Aspen plus, Photoshop, AutoCAD",
+    "Languages", "English, Persian",
+    "Data Management Skills", "Experimental data management, analysis and interpretation.",
+    "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Visio, Word",
+    "Collaborative Practices Skills", "Management and Organization, Planning and Advisory Skills",
+    NA, "Persuasive Leadership and Extensive Collaboration through humility, verbal communication and good interpersonal approach",
+    NA, "Keen on compliance with environment, safety, health and quality program requirements.",
+    NA, "Maintain strong commitment to the implementation and perpetuation of values and ethics.",
+    "Interests","Corrosion Abatement",
+    NA,"Environmental Engineering",
+    NA,"Heterogenous Catalysis",
+    NA,"Structure of nano catalysts",
+    NA,"Energy Transition",
+    NA,"Hydrocracking technology",
+    NA,"Process design and operation",
+    NA,"Chemical reactor engineering",
+    NA,"Electrolyte Solutions and Ionic Liquids",
+    NA,"Performing Lab Experiments"
 )
+
+
 
 honors <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
@@ -37,72 +65,64 @@ honors <- tribble(
 
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-    "Western Governors University", 2020, NA, "Bachelors Data Analytics & Data Management", "Online",NA,
-    "American Council on Education - Statistics.com", 2019, 2019, "Statistics I & II", "Online",NA,
-    "Cosumnes River College", 2012, 2015, "Associate of Art (A.A.) Physical Education Teaching and Coaching", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-    "Cosumnes River College", 2012, 2015, "Associate of Science (A.S.) Liberal Arts: Math and Science", "Sacramento - California", "Phi Theta Kappa Academic Honor Society",
-    "San Joaquin Delta College", 2011, 2011, "Pre-Calculus", "Stockton - California",NA,
-    "Galt High School", 2007, 2011, "Diploma", "Galt - California", "AP English Literature",
-    "Galt High School", 2007, 2011, "Diploma", "Galt - California", "AP US Government"
+    "Azad University, Branch North Tehran, Iran", 2015, 2021, "PhD of Science in Chemical Engineering", "","CGPA: 19.31/20.0",
+    "Azad University, Branch Shahroud, Iran", 2011, 2014, "Master of Science in Chemical Engineering", "","Highest in Thermodynamics | CGPA: 16.31/20.0",
+    " Azad University, Branch Birjand, Iran", 2005, 2010, "Bachelor of Science in Chemical Engineering","", "CGPA: 14.80/20.0"
 )
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "LANGUAGES USED --- T-SQL, Markdown, Python, YAML, HTML, Powershell, Bash, Batch",
-    "Information Technology Associate", "Covered California", "March", 2021, "Present", NA, "Sacramento - California", "TOOLS USED --- Git, VS Code, Visual Studio, Azure DevOps, SQL Server Management Studio",
-    "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "LANGUAGES USED --- R, RMarkdown",
-    "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developmed data collection, structuring, and reporting systems for various water rights databases",
-    "Research Data Specialist I", "California State Water Resources Control Board", "January", 2021, "March", 2021, "Sacramento - California", "I developed and utilized research methodologies and techniques in the area of data collection and analysis",
-    "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, SQL, CCL",
-    "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "Client side Cerner Millenium Database Administrator",
-    "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
-    "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "I create SQL queries to extract raw data from an enterprise wide data warehouse",
-    "Research Data Analyst II", "California Correctional Health Care Services", "October", 2019, "Present", NA, "Elk Grove - California", "Using (HTML CSS/SASS JavaScript) as well as CCL/SQL,I draft stand alone webpages embedded in our Cerner Millenium medical software",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","LANGUAGES & TOOLS USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, Bash, Awk, LaTeX, Git, Markdown, VimL",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","I teach a variety of technology related topics ranging from programming languages, setting up development infrastructure, to tutorials for Programming Integrated Development Environments.",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","I also teach about tools for academics such as LaTeX, BibTeX reference management, reference managers, Zettelkasten note taking, The Obsidian Application, and practices for Personal Knowledge Management.",
-    "YouTuber","youtube.com/BryanJenksTech","September",2019,"Present",NA,"YouTube.com","My Channel currently has a following of over 140 videos, 6,300 Subscribers, and 300,000 Views",
-    "Open Source Software Developer", "github.com/tallguyjenks", "May", 2019, "Present", NA, "GitHub.com", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, T-SQL, PL-SQL, CCL, VBA, Batch, Bash, Markdown, LaTeX, Groff/Troff",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "LANGUAGES USED --- R, RMarkdown",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Create handmade leather goods for sale through online retail",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Analyze Etsy sale csv data files with R and PowerBI to determine marketing and sale strategies",
-    "Owner & Operator", "Norseman Leather Works", "May", 2015, "Present", NA, "Galt - California", "Utilize R Programming to analyze timeseries trends in sales revenue and expenses",
-    "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "LANGUAGES USED --- HTML, CSS, SASS, JavaScript, R, RMarkdown, SQL, CCL",
-    "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "Client side Cerner Millenium Database Administrator",
-    "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "I design and disseminate statistical reports and visualizations written with R and RMarkdown",
-    "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "I create SQL queries to extract raw data from an enterprise wide data warehouse",
-    "Research Data Specialist I (A)", "California Correctional Health Care Services", "September", 2020, "November", 2020, "Elk Grove - California", "Using (HTML CSS/SASS JavaScript) as well as CCL/SQL,I draft stand alone webpages embedded in our Cerner Millenium medical software",
-    "Associate Governmental Program Analyst", "California Correctional Health Care Services", "November", 2018, "October", 2019, "Elk Grove - California", "LANGUAGES USED --- R, VBA, RMarkdown, HTML, CSS",
-    "Associate Governmental Program Analyst", "California Correctional Health Care Services", "November", 2018, "October", 2019, "Elk Grove - California", "Completed Lean Six Sigma Green Belt Project on the state wide reception center process for inmates entering state custody",
-    "Associate Governmental Program Analyst", "California Correctional Health Care Services", "November", 2018, "October", 2019, "Elk Grove - California", "Created a report that processes over 50,000 medical records daily, that simplifies overdue medical appointment resolution for staff state wide",
-    "Associate Governmental Program Analyst", "California Correctional Health Care Services", "November", 2018, "October", 2019, "Elk Grove - California", "Conducted data literacy and anaylsis training to over 120+ department staff of all levels from Office Assistants to CEOs at 10 remote sites",
-    "Associate Governmental Program Analyst", "California Correctional Health Care Services", "November", 2018, "October", 2019, "Elk Grove - California", "Created automated reports with VBA programming in Excel using programming concepts such as arrays, loops, variables, objects, & API's",
-    "Associate Governmental Program Analyst", "California Correctional Health Care Services", "November", 2018, "October", 2019, "Elk Grove - California", "Region wide subject matter expert in Microsoft Excel",
-    "Staff Services Analyst", "California Correctional Health Care Services", "November", 2016, "November", 2018, "Elk Grove - California", "LANGUAGES USED --- R, VBA, RMarkdown, HTML, CSS",
-    "Staff Services Analyst", "California Correctional Health Care Services", "November", 2016, "November", 2018, "Elk Grove - California", "Conducted data literacy and anaylsis training to over 120+ department staff of all levels from Office Assistants to CEOs at 10 remote sites",
-    "Staff Services Analyst", "California Correctional Health Care Services", "November", 2016, "November", 2018, "Elk Grove - California", "Created automated reports with VBA programming in Excel using programming concepts such as arrays, loops, variables, objects, & API's",
-    "Staff Services Analyst", "California Correctional Health Care Services", "November", 2016, "November", 2018, "Elk Grove - California", "Region wide subject matter expert in Microsoft Excel",
-    "Information Technology Associate (T&D)", "California Correctional Health Care Services", "July", 2018, "September", 2018, "Elk Grove - California", "LANGUAGES USED --- SQL, CCL, VBA",
-    "Information Technology Associate (T&D)", "California Correctional Health Care Services", "July", 2018, "September", 2018, "Elk Grove - California", "Resolved user tickets for the CCHCS Department statewide for issues related to Devices Scheduling and Mental Health Provider builds, and support in relation to the Cerner Millennium Software for the CCHCS EHRS (Electronic Health Record System)",
-    "Information Technology Associate (T&D)", "California Correctional Health Care Services", "July", 2018, "September", 2018, "Elk Grove - California", "Used Database Administrator access to grant user permissions, build and route new resources, clinic lines, and locations within the Cerner Millennium medical software",
-    "Information Technology Associate (T&D)", "California Correctional Health Care Services", "July", 2018, "September", 2018, "Elk Grove - California", "Troubleshoot issues related to Cerner Millennium for end users and stake holders",
-    "Health Program Specialist (A)", "California Correctional Health Care Services", "June", 2018, "July", 2018, "Elk Grove - California", "LANGUAGES USED --- R, VBA, RMarkdown, HTML, CSS",
-    "Health Program Specialist (A)", "California Correctional Health Care Services", "June", 2018, "July", 2018, "Elk Grove - California", "Created a tool to simplify data set cleaning for most Quality Management SQL Server reports for front end staff that is utilized state wide",
-    "Health Program Specialist (A)", "California Correctional Health Care Services", "June", 2018, "July", 2018, "Elk Grove - California", "Conducted data literacy and anaylsis training to over 120+ department staff of all levels from Office Assistants to CEOs at 10 remote sites",
-    "Health Program Specialist (A)", "California Correctional Health Care Services", "June", 2018, "July", 2018, "Elk Grove - California", "Created automated reports with VBA programming in Excel using programming concepts such as arrays, loops, variables, objects, & API's",
-    "Health Program Specialist (A)", "California Correctional Health Care Services", "June", 2018, "July", 2018, "Elk Grove - California", "Region wide subject matter expert in Microsoft Excel",
-    "Office Technician", "California Correctional Health Care Services", "April", 2016, "October", 2016, "Ione - California", "Analyzed Inmate Health Care Appeals and recommended methods of processing while preparing the appeals for review by the Appeal Coordinator",
-    "Office Technician", "California Correctional Health Care Services", "April", 2016, "October", 2016, "Ione - California", "Scheduled and conducted inmate interviews to those with disabilities trouble understanding English and low comprehension to ensure effective communication of their response from the Health Care Appeals Office",
-    "Office Technician", "California Correctional Health Care Services", "April", 2016, "October", 2016, "Ione - California", "Analyzed and interpreted trends in data from several spreadsheets of my design intended to track appeal movement through the institution and support the Health Care Appeals Coordinator in preventing overdue appeals",
-    "Office Technician", "California Correctional Health Care Services", "April", 2016, "October", 2016, "Ione - California", "Utilize the HCARTS system for the creation and tracking of Health Care Appeals in conjunction with various other programs such as SOMS, Inmate Locator, eUHR, and other correctional programs to effectively track and complete timely between 200-400 appeals per month",
-    "Office Assistant", "California Correctional Health Care Services", "September", 2015, "March", 2016, "Ione - California", "Analyzed on average 14,000+ medical documents for completion of signatures of the various stages of processing and routing and submission into the,Health Care Services eUHR Database every month.",
-    "Office Assistant", "California Correctional Health Care Services", "September", 2015, "March", 2016, "Ione - California", "Documents handled such as but not limited to: Mental Health Treatment Plans, Medical Progress Notes 7230, 7362 Request for Medical Services Forms, and Dental Chart update forms.",
-    "Office Assistant", "California Correctional Health Care Services", "September", 2015, "March", 2016, "Ione - California", "Analyzed and tracked trends in mail volume utilizing MS Excel for the Office Services Supervisor I and reported daily logs for their records.",
-    "Office Assistant", "California Correctional Health Care Services", "September", 2015, "March", 2016, "Ione - California", "Managed created and filed various inmate Dental forms into charts for the entire inmate dental program at Mule Creek State Prison."
+    "Process Engineering Manager", "Petro Ghir Azhand", "April ", 2021, "Present", NA, "Tehran Saffron Square A", "Role --- Part of mini refinery design team for producing gasoline, solvents, naphtha and kerosene from condensate as a feed.",
+    "Process Engineering Manager", "Petro Ghir Azhand", "April ", 2021, "Present", NA, "Tehran Saffron Square A", "Key Works --- Initiated communication and secured collaboration with Borsig for design of dewaxing unit for producing base oil and paraffin waxes products.",
+    "Process Engineering Manager", "Petro Ghir Azhand", "April ", 2021, "Present", NA, "Tehran Saffron Square A", "Key Works --- Negotiated with Chinese and European companies for the required and suitable equipment for the dewaxing unit.",
+    "Process Engineering Manager", "Petro Ghir Azhand", "April ", 2021, "Present", NA, "Tehran Saffron Square A", "Key Works --- Secured meeting with Uganda embassy at Tehran for coordination about appropriate projects in bitumen trade and mini refinery projects in that country.",
+    "Chemical Engineering Consultant", "Petro Nita Rah Azma", NA, 2020, NA, 2021, NA, "Role --- R&D department manager.",
+    "Chemical Engineering Consultant", "Petro Nita Rah Azma", NA, 2020, NA, 2021, NA, "Role --- Executive consultant | Consultation on procurement of materials",
+    "Chemical Engineering Consultant", "Petro Nita Rah Azma", NA, 2020, NA, 2021, NA, "Work --- Collaborated with multiple stakeholders",
+    "Chemical Engineering Consultant", "Petro Nita Rah Azma", NA, 2020, NA, 2021, NA, "Key Work --- Prepared samples for study and assessment | Maintenance, measurement of samples, design of experiments and new methodologies, analysis and interpretation of data.",
+    "Researcher of Chemical Engineering ", "Novin Baspar", NA, 2016, NA, 2019, NA, "Role --- Technical expert in the laboratory.",
+    "Researcher of Chemical Engineering ", "Novin Baspar", NA, 2016, NA, 2019, NA, "Work --- Management, use and maintenance of laboratory equipment.",
+    "Researcher of Chemical Engineering ", "Novin Baspar", NA, 2016, NA, 2019, NA, "Work --- Reported findings to superiors and published results."
 )
+
+
+
 
 works <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Author and Maintainer",
-    "Runes", "Convert a string of text characters to Elder Futhark Runes ", "February 2020", "https://github.com/tallguyjenks/runes", "Released to CRAN",
+    "Research Thesis", "Investigation on the effect of Mn-Na2WO4/SiO2 preparation Method on the performance of catalyst for Oxidative Coupling Methane", "2021", "Iran Polymer and Petrochemical Institute, Ferdowsi University, Azad University Tehran North Branch", "Synthesis of core shell catalysts and molten catalysts.",
+    NA, NA, NA, NA, "Catalytic activity of the synthesized catalysts in the OCM process.",
+    NA, NA, NA, NA, "Layered loading with my catalysts for OCM process.",
+    NA, NA, NA, NA, "Characterization of catalyst.",
+    "Research Thesis", "The presentment a new thermodynamic model for collation and expectancy electrolyte solutions activity coefficients based on statistical thermodynamics", NA, "Amir Kabir University", NA,
+    "Paper", "Nonextensive Local Composition Model for Excess Gibbs Energy of Electrolyte Systems", "2014", "The 8th International Chemical Engineering Congress & Exhibition (IChEC 2014)", "Author",
+    NA, "A Nonextensive Electrolyte UNIQUAC Model for Prediction of Mean Activity Coefficients of Binary Electrolyte Solutions","December 2018", "Iranian Chemical Society, Phys. Chem. Res., Vol. 6, No. 4, 773-784, December 2018", "Author",
+    NA, "Catalyst for non-Oxidative Coupling of Methane", NA, NA, "Currently drafting",
+    NA, "Catalysts for Oxidative Coupling of Methane", NA, NA, "Currently drafting",
+    "Review Paper", "Catalysts for Oxidative Coupling of Methane", NA, NA, "Currently drafting",
+    "Patent", "Nanocatalyst for Oxidative Coupling of Methane.", NA, NA, NA,
+    "Book", "Corrosion under insulation and fireproofing", NA, NA, "Currently drafting",
+    
 )
+
+
+
+references <- tribble(
+    ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+    "Dr. Mir Esmaeil Masoum", "Chemical Engineering Department, Islamic Azad University", NA, NA, NA, NA, "North Tehran Branch, Iran", "Email: m_masoumi@iau-tnb.ac.ir",
+    "Dr. Mir Esmaeil Masoum", "Chemical Engineering Department, Islamic Azad University", NA, NA, NA, NA, "North Tehran Branch, Iran", "Tel: (0098) 217-731-9324",
+    "Dr. Afshar Alihosseini ", "Head of Department, Chemical Engineering Department, Islamic Azad University", NA, NA, NA, NA, "Central Tehran Branch, Iran", "Email: Afsharalihosseini@iauctb.ac.ir",
+    "Dr. Afshar Alihosseini ", "Head of Department, Chemical Engineering Department, Islamic Azad University", NA, NA, NA, NA, "Central Tehran Branch, Iran", "Tel: (0098) 912-201-9699",
+    "Dr. Gholam Reza Pazuki", "Chemical Engineering Department, Amirkabir University of Technology", NA , NA, NA, NA, "Tehran Polytechnic", "E-mail: ghpazuki@aut.ac.ir",
+    "Dr. Gholam Reza Pazuki", "Chemical Engineering Department, Amirkabir University of Technology", NA , NA, NA, NA, "Tehran Polytechnic", "Tel: (0098)9366598955"
+)  
+
+
+yaml_options <- tribble(
+    ~profilepic, ~website,
+    "profilepic: ./img/me.png in quotes", "www: hadisrezaee.org in quotes"
+)
+    
+    
+    
+
